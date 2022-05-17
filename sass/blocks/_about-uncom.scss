@@ -1,0 +1,51 @@
+.uncom {
+   position: relative;
+   padding: 140px 20px 20px 20px;
+   &::before{
+      position: absolute;
+      top: calc(50% - 260px);
+      left: calc(50% + 250px);
+      display: block;
+      width: 550px;
+      height: 500px;
+      background-image: url(../../images/uncom-before.png);
+       background-size: contain;
+       background-repeat: no-repeat;
+       content: "";
+   }
+}
+.uncom-back {
+   background-image: url(../images/uncom-bgi.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-blend-mode: overlay;
+   background-color: #C3905C;
+}
+.uncom-inner {
+   padding: 100px 0 118px 93px;
+
+}
+.uncom__title {
+margin: 0 0 24px 0;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 50px;
+line-height: 59px;
+font-variant: small-caps;
+color: #FFFFFF;
+
+
+}
+.uncom__text-box {
+   width: 639px;
+}
+.uncom__text {
+margin: 0;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+
+}

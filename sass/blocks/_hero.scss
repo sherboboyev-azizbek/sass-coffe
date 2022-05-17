@@ -1,0 +1,87 @@
+.hero{
+   position: relative;
+   padding: 116px 0 249px;
+   background-image: url(../images/Rectangle-679.png), url(../images/background.png);
+   background-repeat: no-repeat;
+   background-size:  contain, 100%;
+   background-blend-mode:  normal, overlay;
+   background-position: calc(50% + 405px) top, center center;
+   background-color: #F3D7B7;
+
+   &::before{
+      position: absolute;
+      top: calc(50% - 410px);
+      left: calc(50% - 27px);
+      display: block;
+      width: 160px;
+      height: 160px;
+      background-image: url(../images/image-40.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      content: "";
+   
+   }
+   .hero-inner{
+      width: 464px;
+      padding-left: 100px;
+   }
+   .hero-title-box{
+      width: 447px;
+   }
+   .hero-inner__hero-title{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 64px;
+   line-height: 75px;
+   margin: 0;
+   margin-bottom: 24px;
+   }
+   .hero-inner__text-box{
+   width: 464px;
+   margin-bottom: 34px;
+   }
+   .hero-inner__hero-text{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   margin: 0;
+   }
+   .hero-inner__hero-link {
+   display: inline-block;
+   width: 193px;
+   padding: 16px 24px;
+   background-color: #0A775F;
+   border-radius: 100px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   letter-spacing: 1px;
+   text-decoration: none;
+   color: #FFFFFF;
+   }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+ .hero{
+   background-image: url(../images/hero-coffe2x@.png), url(../images/hero-bgi2x@.png);
+   &::before{
+      background-image: url(../images/hero-coat2x@.png);
+   }
+ }
+   
+  
+  
+} 

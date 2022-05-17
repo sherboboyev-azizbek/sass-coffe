@@ -1,0 +1,51 @@
+.commit {
+   position: relative;
+   padding: 20px 20px 0px 20px;
+   &::before{
+      position: absolute;
+      top: calc(50% - 300px);
+      left: calc(50% - 845px);
+      display: block;
+      width: 402px;
+      height: 300px;
+      background-image: url(../../images/commit-before.png);
+       background-size: contain;
+       background-repeat: no-repeat;
+       content: "";
+   }
+}
+.commit-back {
+      background-image: url(../images/commit-bgi.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-blend-mode: overlay;
+      background-color: #F7F7EF;
+}
+.commit__inner {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 160px 64px 200px 115px;
+
+}
+.commit-title {
+   margin: 0 0 24px 0;
+   font-family: 'Roboto';
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 56px;
+   font-variant: small-caps;
+   color: #000000;
+}
+.commit__text-box {
+   width: 626px;
+}
+.commit__text {
+margin: 0;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #333333;
+}

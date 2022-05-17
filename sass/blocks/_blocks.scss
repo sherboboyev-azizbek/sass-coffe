@@ -1,2 +1,25 @@
 @import "./visually-hidden";
 @import "./container";
+
+// 1-page
+
+// Header boshlandi
+@import "./header";
+// Hero boshlandi
+@import "./hero";
+// our servic
+@import "./our-service";
+// functional 
+@import "./functional";
+// work boshlandi
+@import "./work";
+// footer
+@import "./footer";
+
+// 2-page
+@import "./about-hero";
+@import "./about-commit";
+@import "./about-uncom";
+@import "./about-world";
+
+

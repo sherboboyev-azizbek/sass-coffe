@@ -1,0 +1,115 @@
+.functional{
+   padding: 0 20px 20px 20px;
+
+   .functional-box{
+      height: 703px;
+      background-image: url(../images/fuc.png);
+      background-repeat: no-repeat;
+      background-size: 100% 703px;
+      background-color: #C3915C;
+      background-blend-mode: overlay;
+   }
+   .functional-inner{
+      padding: 50px 30px 80px 30px;
+   }
+   .functional__title{
+      margin: 0;
+      padding: 0;
+      margin-bottom: 10px;
+      font-family:'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 59px;
+      text-align: center;
+      color: #FFFFFF;
+   }
+   .functional__text-box{
+      display: block;
+      width: 581px;
+      margin: 0 auto;
+      margin-bottom: 80px;
+   }
+   .functional__text{
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   text-align: center;
+   color: #FFFFFF;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+   }
+   .functional-list{
+     position: relative;
+     left: -55px;
+     display: flex;
+     margin: 0;
+     padding: 0 30px 0 30px;
+     list-style-type: none;
+   }
+   .functional-list::before{
+      display: block;
+      position: absolute;
+      top: -50px;
+      left: -25px;
+      width: 140px;
+      height: 144px;
+      background-image: url(../images/hjk.png);
+      background-repeat: no-repeat;
+      background-size: auto;
+      content: "";
+   }
+   .functional-list__items{
+      margin: 0;
+      padding: 0;
+      margin-right: 20px;
+   }
+   .functional-list__items:nth-child(3){
+      margin-right: 0;
+   }
+   .functional-list__title{
+   display: inline-block;
+   margin: 28px 0 10px 0;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 35px;
+   color: #333333;
+   }
+   .fuct-text-box{
+      width: 377px;
+   }
+   .functional-list__text{
+      margin: 0;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #333333;
+   }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+   .functional-list::before{
+
+      background-image: url(../images/whyb@2x.png);
+      
+   }
+
+   
+   
+  
+  
+} 

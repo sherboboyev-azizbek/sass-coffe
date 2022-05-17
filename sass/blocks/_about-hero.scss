@@ -1,0 +1,51 @@
+.about-hero{
+   position: relative;
+   padding: 116px 0 261px 0;
+   background-image: url(../images/about-img.png), url(../images/background.png);
+   background-repeat: no-repeat;
+   background-size:  710px 596px, 100%;
+   background-blend-mode:  normal, overlay;
+   background-position: calc(50% + 405px) top, center center;
+   background-color: #F3D7B7;
+
+   &::before{
+      position: absolute;
+      top: calc(50% - 350px);
+      left: calc(50% - 27px);
+      display: block;
+      width: 160px;
+      height: 160px;
+      background-image: url(../images/image-40.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      content: "";
+   
+   }
+   .about-hero-inner{
+      width: 464px;
+      padding-left: 100px;
+   }
+   .about-hero-title-box{
+      width: 264px;
+   }
+   .about-hero-inner__hero-title{
+      font-family: 'Roboto';
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 75px;
+      color: #000000;
+      margin: 0 0 24px 0;
+   
+   }
+   .about-hero-inner__text-box{
+   width: 372px;
+   }
+   .about-hero-inner__hero-text{
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+      margin: 0;
+   }
+}
